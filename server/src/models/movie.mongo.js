@@ -11,12 +11,12 @@ const MovieSchema = new mongoose.Schema({
         required: true,
     },
 
-    movie_backdrop:{
+    movie_backdrop_img:{
         type: String,
         required: true,
     },
 
-    movie_poster:{
+    movie_poster_img:{
         type: String,
         required: true,
     },
@@ -27,7 +27,7 @@ const MovieSchema = new mongoose.Schema({
     },
 
     release_date:{
-        type: Date,
+        type: String,
         required: true,
     },
 
@@ -38,6 +38,6 @@ const MovieSchema = new mongoose.Schema({
 
 })
 
-const MovieModel = mongoose.Model('Movie',MovieSchema);
+const MovieModel = mongoose.model('Movie',MovieSchema);
 
 module.exports = MovieModel;
