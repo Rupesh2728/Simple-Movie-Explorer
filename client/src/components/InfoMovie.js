@@ -24,7 +24,7 @@ const InfoMovie = ({show,handleClose,movie,image_url}) => {
                   <div className='flex justify-center'>
                   <div className='flex flex-col'>
                   <h4 className='underline text-[1.6rem] font-[600] flex justify-center'>Title</h4>
-                    <p>{movie.title}</p>
+                    <p className='font-[600] text-[1.2rem]'>{movie.title}</p>
                   </div>
                   </div>
     

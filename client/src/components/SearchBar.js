@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import classes from './SearchBar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-const SearchBar = ({searchTerm, setSearchTerm,handleInputChange,handleSearch,movie,genre}) => {
+const SearchBar = ({searchTerm,handleInputChange,handleSearch,movie,genre}) => {
   return (
         <div className={classes.searchbardiv}>
          {movie===false && genre===false &&  

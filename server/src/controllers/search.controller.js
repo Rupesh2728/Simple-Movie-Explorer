@@ -1,12 +1,28 @@
-const searchMovies =async (req,res)=>{
-  return {
-    l:1,
-}
+const MovieModel = require("../models/movie.mongo");
+
+const searchMoviesbyname =async (req,res)=>{
+  const name = req.body.name;
+  const regex = new RegExp(name, 'i');
+  const movielist = await MovieModel.find({
+    title: regex
+  },'-__v -_id');
+  return res.json(movielist);
 }
 
-// Search by name : https://api.themoviedb.org/3/search/movie?api_key=9208bfe80b7d768f6c808470e40010ba&&query={moviename}
-// e.g. https://api.themoviedb.org/3/search/movie?api_key=9208bfe80b7d768f6c808470e40010ba&&query=war  // It gives all movie with name "war" in it
+const searchMoviesbygenre=async (req,res)=>{
+  const genre = req.body.genre_name;
+  const movielist = await MovieModel.find({
+    genre:{
+      $elemMatch: {
+        $regex: genre,
+        $options: 'i' 
+      }
+  }},'-__v -_id');
+  return res.json(movielist);
+}
+
 
 module.exports ={
-    searchMovies
+    searchMoviesbyname,
+    searchMoviesbygenre,
 };

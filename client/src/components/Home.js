@@ -9,8 +9,7 @@ import Logo from './Logo.png';
 import { Checkbox } from './Checkbox';
 import {BACKEND_URL,IMAGE_URL} from '../URL';
 import InfoMovie from './InfoMovie';
-
-
+import OOPS from './OOPS.png';
 
 const Home = () => {
 
@@ -23,11 +22,9 @@ const Home = () => {
 
     const [movieList,setmovieList]=useState([]);
 
-    const [searchTerm, setSearchTerm] = useState('');
+    const [searchTerm, setSearchTerm] = useState("");
 
     const [movieInfo, setmovieInfo] = useState();
-
-    console.log(movieList);
 
     const getAllmovies=async ()=>{
         const response = await fetch(`${BACKEND_URL}/movie`);
@@ -35,33 +32,58 @@ const Home = () => {
         return res;
     }
 
-    const getmoviesbyname=async ()=>{
-     
+    const getmoviesbyname=async (searchTerm)=>{
+        const response = await fetch(`${BACKEND_URL}/search/name`,{
+            method: "POST",
+            body: JSON.stringify({
+                name: String(searchTerm),
+            }),
+            headers:{
+                "Content-Type": "application/json",
+            }
+        });
+        const res = await response.json();
+        console.log(res);
+        return res;
     }
 
-    const getmoviesbygenre=async ()=>{
-
+    const getmoviesbygenre=async (searchTerm)=>{
+        const response = await fetch(`${BACKEND_URL}/search/genre`,{
+            method: "POST",
+            body: JSON.stringify({
+                genre_name: String(searchTerm),
+            }),
+            headers:{
+                "Content-Type": "application/json",
+            }
+        });
+        const res = await response.json();
+        return res;
     }
 
-    const extractmovielist=async (movie,genre)=>{
+    const extractmovielist=async (movie,genre,searchTerm)=>{
         if(movie===false && genre===false)
             {
                 setmovieList(await getAllmovies());
             }
+        else if(((movie===true && genre===false) || (movie===false && genre===true)) && searchTerm==="")
+            {
+                setmovieList(await getAllmovies());
+            }
 
-        else if(movie===true && genre===false)
+        else if(searchTerm!=="" && movie===true && genre===false)
             {
-                setmovieList(getmoviesbyname());
+                setmovieList(await getmoviesbyname(searchTerm));
             } 
-        else if(movie===false && genre===true)
+        else if(searchTerm!=="" && movie===false && genre===true)
             {
-                setmovieList(getmoviesbygenre());       
+                setmovieList(await getmoviesbygenre(searchTerm));       
             }        
     }
 
     useEffect(()=>{
-     extractmovielist(movie,genre);
-    },[movie,genre]);
+     extractmovielist(movie,genre,searchTerm);
+    },[movie,genre,searchTerm]);
 
 
     const handleInputChange = (e) => {
@@ -71,8 +93,8 @@ const Home = () => {
     };
   
     const handleSearch = () => {
-     console.log("Search started");
-     setSearchTerm('');
+     console.log(movie,genre,searchTerm);
+     extractmovielist(movie,genre,searchTerm);
     };
   
 
@@ -83,9 +105,8 @@ const Home = () => {
       <div className='flex'>
       <img src={Logo} alt='' className='w-[16rem] h-[13rem]'/>
 
-      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} 
-      handleInputChange={handleInputChange} handleSearch={handleSearch}
-      movie={movie} genre={genre}/>
+      <SearchBar searchTerm={searchTerm} handleInputChange={handleInputChange} 
+      handleSearch={handleSearch} movie={movie} genre={genre}/>
 
       <Checkbox setmovie={setmovie} setgenre={setgenre} movie={movie} genre={genre}/>
 
@@ -97,7 +118,14 @@ const Home = () => {
 
 
         <Row className='flex'>
-         {movieList.length===0 && <p className='flex justify-center'>Oops, No movies!!!</p>}    
+         {movieList.length===0 && 
+           <div className='w-[50%] flex justify-center'>
+           <div className='flex flex-col'>
+           <img className='w-[90%] h-[85%]' src={OOPS} alt='Oops! No movies'/> 
+            <p className='text-[gold] text-[1.5rem] font-[600] ml-[7rem]' >No Movies Found !!!</p>
+           </div>
+           </div>
+         }    
             {
                 movieList.length!==0 && movieList.map(movie=>{
                   return (
