@@ -96,6 +96,7 @@ npm run watch
 
 
 <h2 align="left">Contact Me</h2>
+
 - 📫 You can to reach me by mailing to **rupesh.p21@iiits.in** or **rupeshprofessional2728@gmail.com**
 
 - 👨‍💻 Project is available at [https://github.com/Rupesh2728](https://github.com/Rupesh2728)
