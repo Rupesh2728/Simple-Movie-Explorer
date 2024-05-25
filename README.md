@@ -70,27 +70,27 @@ npm run watch
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image2.png" alt="react" width="350" height="80"/> 
+<img src="./client/public/Image2.png" alt="react" width="1000" height="600"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image3.png" alt="react" width="350" height="80"/> 
+<img src="./client/public/Image3.png" alt="react" width="1000" height="600"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image4.png" alt="react" width="350" height="80"/> 
+<img src="./client/public/Image4.png" alt="react" width="1000" height="600"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image5.png" alt="react" width="350" height="80"/> 
+<img src="./client/public/Image5.png" alt="react" width="1000" height="600"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image6.png" alt="react" width="350" height="80"/> 
+<img src="./client/public/Image6.png" alt="react" width="1000" height="600"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image7.png" alt="react" width="350" height="80"/> 
+<img src="./client/public/Image7.png" alt="react" width="1000" height="600"/> 
 </a>
 
 
