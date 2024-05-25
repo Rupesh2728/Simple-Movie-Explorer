@@ -36,11 +36,11 @@
 
 - Implemented a kind of **Auto-Search** which provides **relevant suggestions and details before the users finish their queries**
 
-- Well designed UI, **Cool,Interactive UI**
+- **Well designed and cool,interactive UI**
 
 - User can see the **Movie details** by **clicking on i-button** on the movie card
 
-- Deployment,  **Deployed both Frontend and Backend, on Vercel and Render respectively**
+- **Deployed both Frontend and Backend, on Vercel and Render respectively**
 
 - Included various Third-party Libraries,**Express,Mongoose,dotenv,Morgan,CORS,Concurrently etc.**
 
