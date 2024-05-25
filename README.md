@@ -1,6 +1,6 @@
 <h1 align="center">Movie Explorer</h1>
 <h3 align="center">The application will allow users to search for movies by title or genre and display relevant information.</h3>
-<h3 align="center">Used <a href="https://developer.themoviedb.org/reference/intro/getting-started">TDMB API</a>, an External API to fetch the movies data</h3>
+<h3 align="center">Used <a href="https://developer.themoviedb.org/reference/intro/getting-started">TMDB API</a>, an External API to fetch the movies data</h3>
 <h4 align="center">You can visit my website at <a href="https://simple-movie-explorer.vercel.app" target="blank">https://simple-movie-explorer.vercel.app</a></h3>
 
 
