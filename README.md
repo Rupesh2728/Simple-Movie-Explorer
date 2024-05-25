@@ -23,9 +23,57 @@
 <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="80" height="80"/> </a>
 <a href="https://vercel.com" target="_blank" rel="noreferrer"> <img src="https://www.hatimeria.com/images/marketing/vercel-logo.png" alt="vercel" width="90" height="40"/> </a>
 <a href="https://render.com" target="_blank" rel="noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1iBdgTFluBZIX9JbXDeEFdjfl-efmaUTc12k_LDam&s" alt="render" width="90" height="30"/> </a>
-
-
 </p>
+
+<h2 align="left">Features</h2>
+
+- Code cleaning and structed, **Well organised code using MVC and REST Architecture**
+
+- Different Search Options, **Either, search by name or search by genre**
+
+- **One should select**, based on what he want to **search(name/genre)** before starting to search
+
+- Implemented a kind of **Auto-Search** which provides **relevant suggestions and details before the users finish their queries**
+
+- Well designed UI, **Cool,Interactive UI**
+
+- User can see the **Movie details** by **clicking on i-button** on the movie card
+
+- Deployment,  **Deployed both Frontend and Backend, on Vercel and Render respectively**
+
+- Included various Third-party Libraries,**Express,Mongoose,dotenv,Morgan,CORS,Concurrently etc.**
+
+
+<h2 align="left">Installation</h2>
+<h3>To get started with this project, clone the repository and install the necessary dependencies</h3>
+
+```bash
+# Clone the repository
+git clone https://github.com/Rupesh2728/Simple-Movie-Explorer
+
+# Navigate to the project directory
+cd your-repository
+
+# Install dependencies
+npm install
+
+# Run the code
+npm run watch
+```
+
+<h2 align="left">Website Images</h2>
+
+
+
+
+
+
+
+
+
+<h2 align="left">Contact Me</h2>
+- 📫 You can to reach me by mailing to **rupesh.p21@iiits.in** or **rupeshprofessional2728@gmail.com**
+- 👨‍💻 Project is available at [https://github.com/Rupesh2728](https://github.com/Rupesh2728)
 
 
 
