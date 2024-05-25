@@ -44,6 +44,10 @@
 
 - Included various Third-party Libraries,**Express,Mongoose,dotenv,Morgan,CORS,Concurrently etc.**
 
+- **Fetched the data from API** and stored in **MongoDB Database**
+
+- Used **Regex** to check the **search query match in the database**
+
 
 
 <h2 align="left">Installation</h2>
