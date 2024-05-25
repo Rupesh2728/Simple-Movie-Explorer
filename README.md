@@ -25,9 +25,10 @@
 <a href="https://render.com" target="_blank" rel="noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1iBdgTFluBZIX9JbXDeEFdjfl-efmaUTc12k_LDam&s" alt="render" width="90" height="30"/> </a>
 </p>
 
+
 <h2 align="left">Features</h2>
 
-- Code cleaning and structed, **Well organised code using MVC and REST Architecture**
+- Code cleaning and structure, **Well organised code, using MVC and REST Architecture in the server**
 
 - Different Search Options, **Either, search by name or search by genre**
 
@@ -44,6 +45,7 @@
 - Included various Third-party Libraries,**Express,Mongoose,dotenv,Morgan,CORS,Concurrently etc.**
 
 
+
 <h2 align="left">Installation</h2>
 <h3>To get started with this project, clone the repository and install the necessary dependencies</h3>
 
@@ -52,7 +54,7 @@
 git clone https://github.com/Rupesh2728/Simple-Movie-Explorer
 
 # Navigate to the project directory
-cd your-repository
+cd Simple-Movie-Explorer-main
 
 # Install dependencies
 npm install
@@ -61,18 +63,41 @@ npm install
 npm run watch
 ```
 
+
 <h2 align="left">Website Images</h2>
+<a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
+<img src="./client/public/Image1.png" alt="react" width="80" height="80"/> 
+</a>
 
+<a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
+<img src="./client/public/Image2.png" alt="react" width="80" height="80"/> 
+</a>
 
+<a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
+<img src="./client/public/Image3.png" alt="react" width="80" height="80"/> 
+</a>
 
+<a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
+<img src="./client/public/Image4.png" alt="react" width="80" height="80"/> 
+</a>
 
+<a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
+<img src="./client/public/Image5.png" alt="react" width="80" height="80"/> 
+</a>
 
+<a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
+<img src="./client/public/Image6.png" alt="react" width="80" height="80"/> 
+</a>
 
+<a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
+<img src="./client/public/Image7.png" alt="react" width="80" height="80"/> 
+</a>
 
 
 
 <h2 align="left">Contact Me</h2>
 - 📫 You can to reach me by mailing to **rupesh.p21@iiits.in** or **rupeshprofessional2728@gmail.com**
+
 - 👨‍💻 Project is available at [https://github.com/Rupesh2728](https://github.com/Rupesh2728)
 
 
