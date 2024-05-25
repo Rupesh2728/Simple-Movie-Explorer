@@ -11,9 +11,6 @@
 # production
 /build
 
-#Backend URL
-/src/URL.js
-
 # misc
 .env
 .DS_Store

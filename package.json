@@ -1,5 +1,5 @@
 {
-  "name": "chatapplication",
+  "name": "movieexplorer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,10 @@
     "start-server":"npm start --prefix server",
     "watch-server":"npm run watch --prefix server",
     "start-client":"npm start --prefix client",
-    "watch-client":"npm run watch --prefix client",
+    "watch-client":"npm start --prefix client",
     "test": "npm run test --prefix server && npm run test --prefix client",
-    "start": "concurrently \"npm start-server\" \"npm start-client\"",
-    "watch": "concurrently \"npm watch-server\" \"npm watch-client\""
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
+    "watch": "concurrently \"npm run watch-server\" \"npm run watch-client\""
   },
   "keywords": [],
   "author": "",
