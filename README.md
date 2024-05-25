@@ -104,6 +104,8 @@ npm run watch
 - 📫 You can to reach me by mailing to **rupesh.p21@iiits.in** or **rupeshprofessional2728@gmail.com**
 
 - 👨‍💻 Project is available at [https://github.com/Rupesh2728/Simple-Movie-Explorer]
+  
+- MongoDB Atlas account : ***nontechjointsecretary.sdc@iiits.in**
 
 
 
