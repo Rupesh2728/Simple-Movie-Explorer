@@ -66,7 +66,7 @@ npm run watch
 
 <h2 align="left">Website Images</h2>
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image1.png" alt="react" width="350" height="250" height="80"/> 
+<img src="./client/public/Image1.png" alt="react" width="800" height="800" height="80"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
