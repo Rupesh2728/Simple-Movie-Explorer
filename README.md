@@ -66,31 +66,31 @@ npm run watch
 
 <h2 align="left">Website Images</h2>
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image1.png" alt="react" width="80" height="80"/> 
+<img src="./client/public/Image1.png" alt="react" width="350" height="80"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image2.png" alt="react" width="80" height="80"/> 
+<img src="./client/public/Image2.png" alt="react" width="350" height="80"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image3.png" alt="react" width="80" height="80"/> 
+<img src="./client/public/Image3.png" alt="react" width="350" height="80"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image4.png" alt="react" width="80" height="80"/> 
+<img src="./client/public/Image4.png" alt="react" width="350" height="80"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image5.png" alt="react" width="80" height="80"/> 
+<img src="./client/public/Image5.png" alt="react" width="350" height="80"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image6.png" alt="react" width="80" height="80"/> 
+<img src="./client/public/Image6.png" alt="react" width="350" height="80"/> 
 </a>
 
 <a href="https://simple-movie-explorer.vercel.app" target="_blank" rel="noreferrer"> 
-<img src="./client/public/Image7.png" alt="react" width="80" height="80"/> 
+<img src="./client/public/Image7.png" alt="react" width="350" height="80"/> 
 </a>
 
 
